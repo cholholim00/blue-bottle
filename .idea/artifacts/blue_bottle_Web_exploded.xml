@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="blue-bottle:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/blue_bottle_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="blue-bottle/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="blue-bottle" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
