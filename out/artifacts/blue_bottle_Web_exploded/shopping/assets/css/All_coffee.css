@@ -71,3 +71,59 @@ body {
 .menu-link:hover {
     color: #007BFF; /* 마우스 오버시 글자 색상 변경 */
 }
+.product-container {
+    display: flex; /* 가로 정렬을 위한 flexbox 설정 */
+    justify-content: space-around; /* 가로로 공간을 균등하게 배분 */
+    flex-wrap: wrap; /* 화면 너비가 좁을 경우 줄바꿈 허용 */
+    gap: 20px; /* 카드 사이 간격 설정 */
+    padding: 20px; /* 전체 패딩 설정 */
+}
+
+.product {
+    width: 250px; /* 상품 카드 너비 설정 */
+    background: white; /* 배경색 흰색 */
+    border: 1px solid #ddd; /* 테두리 설정 */
+    border-radius: 10px; /* 테두리 둥글게 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+    padding: 20px; /* 내부 여백 */
+}
+
+.product img {
+    width: 100px; /* 이미지 너비 고정 */
+    height: auto; /* 비율 유지하면서 높이 자동 설정 */
+}
+
+.product-name {
+    margin-top: 10px; /* 위쪽 여백 추가 */
+    font-weight: bold; /* 글자 굵게 */
+}
+
+.soldout, .add-cart {
+    margin-top: 15px; /* 위쪽 여백 */
+    padding: 10px; /* 내부 여백 */
+    border-radius: 5px; /* 버튼 둥근 모서리 */
+    font-weight: bold; /* 글자 굵게 */
+}
+
+.soldout {
+    background-color: #ccc; /* 회색 배경 */
+    color: white; /* 흰색 텍스트 */
+}
+
+.add-cart {
+    background-color: #444; /* 어두운 회색 배경 */
+    color: white; /* 흰색 텍스트 */
+    cursor: pointer; /* 마우스 포인터 변경으로 클릭 가능 표현 */
+}
+
+.all-view {
+    margin-top: 40px; /* 상단 여백 */
+    text-align: center; /* 가운데 정렬 */
+}
+
+.all-view button {
+    padding: 10px 20px; /* 버튼 패딩 */
+    border: 1px solid #000; /* 검은 테두리 */
+    background: #fff; /* 흰색 배경 */
+    cursor: pointer; /* 포인터 커서 표시 */
+}
