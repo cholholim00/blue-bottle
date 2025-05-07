@@ -57,7 +57,7 @@
 </div>
 
 <!-- 블렌드 상품 목록 -->
-<h2>블렌드</h2>
+<h4>블렌드</h4>
 <div class="product-container">
     <div class="product">
         <img src="./assets/images/블렌드/퍼스트 에스프레소 블렌드.jpg" alt="퍼스트 에스프레소 블렌드">
@@ -65,7 +65,7 @@
         <div class="soldout">품절</div>
     </div>
     <div class="product">
-        <img src="./assets/images/블렌드/벨라%20도노반.jpg" alt="벨라 도노반">
+        <img src="./assets/images/블렌드/벨라 도노반.jpg" alt="벨라 도노반">
         <div class="product-name">블렌드<br>벨라 도노반</div>
         <div class="add-cart">카트에 추가 | ₩25,000</div>
     </div>
@@ -75,10 +75,39 @@
         <div class="soldout">품절</div>
     </div>
 </div>
-
 <div class="all-view">
     <button>모두 보기</button>
 </div>
 
+<!-- 싱글 오리진 상품 목록 -->
+<h4>싱글 오리진</h4>
+<div class="product-container">
+    <div class="product">
+        <img src="./assets/images/싱글 오리진/르완다 냐마세케 냐부메라 워시드.jpg" alt="르완다 냐마세케 냐부메라 워시드">
+        <div class="product-name">르완다 냐마세케 냐부메라 워시드</div>
+        <div class="soldout">품절</div>
+    </div>
+    <div class="product">
+        <img src="./assets/images/싱글 오리진/온두라스 산타 엘레나 카트라차 커뮤니티.jpg" alt="온두라스 산타 엘레나 카트라차 커뮤니티">
+        <div class="product-name">온두라스 산타 엘레나 카트라차 커뮤니티</div>
+        <div class="soldout">품절</div>
+    </div>
+</div>
+
+<!-- 휴먼 메이드 상품 목록 -->
+<h4>휴먼 메이드</h4>
+<div class="product-container">
+    <div class="product">
+        <img src="./assets/images/휴먼 메이드/휴먼 메이드 패스트 블렌드 원두.jpg" alt="휴먼 메이드 패스트 블렌드">
+        <div class="product-name">휴먼 메이드 패스트 블렌드</div>
+        <div class="soldout">품절</div>
+    </div>
+
+    <div class="product">
+        <img src="./assets/images/휴먼 메이드/휴먼 메이드 퓨처 블렌드 원두.jpg" alt="휴먼 메이드 퓨처 블렌드">
+        <div class="product-name">휴먼 메이드 퓨처 블렌드</div>
+        <div class="soldout">품절</div>
+    </div>
+</div>
 </body>
 </html>
