@@ -5,7 +5,7 @@
     <title>모든 커피-블루보틀</title>
 
     <!-- 사용자 정의 CSS 스타일 시트 연결 -->
-    <link rel="stylesheet" href="assets/css/All_coffee.css">
+    <link rel="stylesheet" href="./assets/css/All_coffee.css">
 
     <!-- 부트스트랩 CSS CDN 연결 (디자인을 위한 라이브러리) -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
