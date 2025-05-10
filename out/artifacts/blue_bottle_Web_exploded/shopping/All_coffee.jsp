@@ -60,7 +60,9 @@
 <h4>블렌드</h4>
 <div class="product-container">
     <div class="product">
-        <img src="./assets/images/블렌드/퍼스트 에스프레소 블렌드.jpg" alt="퍼스트 에스프레소 블렌드">
+        <img src="./assets/images/블렌드/퍼스트 에스프레소 블렌드 원두.jpg" alt="퍼스트 에스프레소 블렌드 원두"
+             onmouseover="this.src='/assets/images/블렌드/퍼스트 에스프레소 블렌드.jpg'"
+             onmouseout="this.src='/assets/images/블렌드/퍼스트 에스프레소 블렌드 원두.jpg'">
         <div class="product-name">퍼스트 에스프레소 블렌드</div>
         <div class="soldout">품절</div>
     </div>
