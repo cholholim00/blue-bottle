@@ -103,8 +103,8 @@
     </div>
     <div class="product">
         <img src="자이언트 스텝스 원두.jpg" alt="자이언트 스텝스 원두"
-             onmouseover="this.src='자이언트 스텝스.jpg'"
-             onmouseout="this.src='자이언트 스텝스 원두.jpg'">
+             onmouseover="this.src='./assets/images/블렌드/자이언트 스텝스.jpg'"
+             onmouseout="this.src='./assets/images/블렌드/자이언트 스텝스 원두.png'">
         <div class="product-name">블렌드<br>자이언트 스텝스</div>
         <div class="add-cart">카트에 추가 | ₩25,000</div>
     </div>
