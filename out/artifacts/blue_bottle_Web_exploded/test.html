@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>블루보틀 - 블렌드</title>
+    <link rel="stylesheet" href="all-coffee.css">
+</head>
+<body>
+<section class="section">
+    <h2 class="section-title">블렌드</h2>
+    <div class="product-container">
+        <div class="product">
+            <img src="./shopping/assets/images/블렌드/벨라 도노반 원두.jpg"
+                 data-hover="./shopping/assets/images/블렌드/벨라 도노반.jpgg"
+                 alt="벨라 도노반">
+            <div class="product-sub">블렌드</div>
+            <div class="product-name">벨라 도노반</div>
+        </div>
+        <div class="product">
+            <img src="img/hayes.png"
+                 data-hover="img/hayes_hover.png"
+                 alt="헤이즈 밸리 에스프레소">
+            <div class="product-sub">블렌드</div>
+            <div class="product-name">헤이즈 밸리 에스프레소</div>
+        </div>
+        <div class="product">
+            <img src="img/giant.png"
+                 data-hover="img/giant_hover.png"
+                 alt="자이언트 스텝스">
+            <div class="product-sub">블렌드</div>
+            <div class="product-name">자이언트 스텝스</div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.querySelectorAll('.product img').forEach(img => {
+        const original = img.src;
+        const hover = img.getAttribute('data-hover');
+
+        img.addEventListener('mouseover', () => img.src = hover);
+        img.addEventListener('mouseout', () => img.src = original);
+    });
+</script>
+</body>
+</html>
