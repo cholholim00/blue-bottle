@@ -7,7 +7,7 @@
     <!-- 사용자 정의 CSS 스타일 시트 연결 -->
     <link rel="stylesheet" href="./assets/css/All_coffee.css">
     <!-- 부트스트랩 CSS CDN 연결 (디자인을 위한 라이브러리) -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"  integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <!-- 폰트 적용을 위한 구글 폰트(Noto Sans KR) CDN 연결 -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap">
 </head>
@@ -94,6 +94,7 @@
         <div class="product-name">블렌드<br>벨라 도노반</div>
         <div class="add-cart">카트에 추가 | ₩25,000</div>
     </div>
+
     <div class="product">
         <img src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.jpg" alt="헤이즈 벨리 에스프레소 원두"
              onmouseover="this.src='./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg'"
@@ -101,8 +102,9 @@
         <div class="product-name">블렌드<br>헤이즈 밸리 에스프레소</div>
         <div class="soldout">품절</div>
     </div>
+
     <div class="product">
-        <img src="/assets/images/블렌드/자이언트 스텝스 원두.png" alt="자이언트 스텝스 원두"
+        <img src="./assets/images/블렌드/자이언트 스텝스 원두.jpg" alt="자이언트 스텝스 원두"
              onmouseover="this.src='./assets/images/블렌드/자이언트 스텝스.jpg'"
              onmouseout="this.src='./assets/images/블렌드/자이언트 스텝스 원두.jpg'">
         <div class="product-name">블렌드<br>자이언트 스텝스</div>

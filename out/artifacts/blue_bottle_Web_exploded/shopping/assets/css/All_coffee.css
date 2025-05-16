@@ -106,7 +106,14 @@ body {
     height: auto; /* 자동 높이 설정 */
     display: block;
     margin-bottom: 15px; /* 이미지와 텍스트 간격 조정 */
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
+
+.product img:hover {
+    transform: scale(1.05); /* 이미지 확대 효과 */
+    opacity: 0.9; /* 이미지 투명도 조정 */
+}
+
 
 
 .product-name {
