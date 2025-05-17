@@ -1,8 +1,5 @@
 /* 전체 body 기본 스타일 */
-body {
-    overflow-x: hidden;
-    background-color: rgb(253, 251, 247);
-}
+
 
 .my_header {
     width: 100%;
@@ -82,90 +79,75 @@ body {
 .menu-link:hover {
     color: #007BFF; /* 마우스 오버시 글자 색상 변경 */
 }
-/* 카테고리 아이콘 스타일링 */
-.product-container {
-    display: flex;
-    justify-content: center; /* 중앙 정렬 */
-    flex-wrap: wrap;
-    gap: 10px; /* 이미지 사이 간격 없음 */
-    padding: 40px 0;
-    background-color: #faf6f0; /* 페이지와 유사한 배경색 (옵션) */
-}
 
-.ribbon {
-    position: absolute;
-    top: 10px;
-    right: -30px;
-    transform: rotate(45deg);
-    background-color: #555;
-    color: white;
-    padding: 5px 40px;
-    font-size: 0.8rem;
-    font-weight: bold;
-    z-index: 1;
-}
-
-.product {
-    position: relative; /* 리본 위치 기준을 위해 반드시 필요 */
-    width: 300px; /* 넓은 카드로 설정하여 이미지가 크게 보이도록 */
-    text-align: center;
-    padding: 0;
+/* 블렌드 섹션 추가 스타일 */
+body {
+    background-color: #f7f1ea;
+    font-family: Arial, sans-serif;
     margin: 0;
-    background-color: transparent; /* 카드 배경색 없앰 */
-    border: none; /* 테두리 제거 */
+    padding: 0;
 }
 
-.product img {
-    width: 100%; /* 이미지가 카드 너비 전체를 차지하도록 */
-    height: auto; /* 자동 높이 설정 */
-    display: block;
-    margin-bottom: 15px; /* 이미지와 텍스트 간격 조정 */
-    transition: transform 0.3s ease, opacity 0.3s ease;
+.blend-section {
+    padding: 50px 0;
+    background-color: #f7f1ea;
+    text-align: center;
 }
 
-.product img:hover {
-    transform: scale(1.05); /* 이미지 확대 효과 */
-    opacity: 0.9; /* 이미지 투명도 조정 */
+.blend-section h2 {
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 30px;
 }
 
+.blend-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
+.blend-item {
+    width: 300px;
+    padding: 30px;
+    background-color: #fcf9f4;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
 
-.product-name {
-    font-size: 1rem;
+.blend-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.blend-name {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.blend-title {
+    font-size: 18px;
     font-weight: bold;
-    color: #333;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
 
-.soldout, .add-cart {
-    margin-top: 15px; /* 위쪽 여백 */
-    padding: 10px; /* 내부 여백 */
-    border-radius: 5px; /* 버튼 둥근 모서리 */
-    font-weight: bold; /* 글자 굵게 */
+.view-all-btn {
+    margin-top: 40px;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
-.soldout {
-    background-color: #ccc; /* 회색 배경 */
-    color: white; /* 흰색 텍스트 */
+.view-all-btn:hover {
+    background-color: #000;
+    color: #fff;
 }
 
-.add-cart {
-    background-color: #444; /* 어두운 회색 배경 */
-    color: white; /* 흰색 텍스트 */
-    cursor: pointer; /* 마우스 포인터 변경으로 클릭 가능 표현 */
-}
 
-.all-view {
-    margin-top: 40px; /* 상단 여백 */
-    text-align: center; /* 가운데 정렬 */
-}
-
-.all-view button {
-    padding: 10px 20px; /* 버튼 패딩 */
-    border: 1px solid #000; /* 검은 테두리 */
-    background: #fff; /* 흰색 배경 */
-    cursor: pointer; /* 포인터 커서 표시 */
-}
 .my_footer {
     width: 100%;
     padding: 100px;
