@@ -92,7 +92,21 @@ body {
     background-color: #faf6f0; /* 페이지와 유사한 배경색 (옵션) */
 }
 
+.ribbon {
+    position: absolute;
+    top: 10px;
+    right: -30px;
+    transform: rotate(45deg);
+    background-color: #555;
+    color: white;
+    padding: 5px 40px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    z-index: 1;
+}
+
 .product {
+    position: relative; /* 리본 위치 기준을 위해 반드시 필요 */
     width: 300px; /* 넓은 카드로 설정하여 이미지가 크게 보이도록 */
     text-align: center;
     padding: 0;
@@ -186,4 +200,65 @@ body {
 }
 .my_footer .bi:hover {
     color: #00bfff; /* 블루보틀 컬러 느낌 */
+}
+.image-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.image-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(34, 34, 34, 0.85);
+  color: #fff;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  transition: opacity 0.3s ease;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.image-wrapper:hover .overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+.overlay .product-desc,
+.overlay .product-roast,
+.overlay .product-name,
+.overlay .add-cart,
+.overlay .soldout {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.overlay .product-name {
+  font-size: 1.1rem;
+  margin: 8px 0;
+}
+
+.overlay .add-cart,
+.overlay .soldout {
+  background: none;
+  border: 1px solid #fff;
+  padding: 6px 12px;
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: #fff;
 }

@@ -88,27 +88,41 @@
 <h4>블렌드</h4>
 <div class="product-container">
     <div class="product">
-        <img src="./assets/images/블렌드/벨라 도노반 원두.jpg" alt="벨라 도노반 원두"
-             onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-             onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'">
-        <div class="product-name">블렌드<br>벨라 도노반</div>
-        <div class="add-cart">카트에 추가 | ₩25,000</div>
+        <div class="image-wrapper">
+            <img src="./assets/images/블렌드/벨라 도노반 원두.jpg" alt="벨라 도노반 원두"
+                 onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
+                 onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'">
+            <div class="overlay">
+                <div class="product-desc">라즈베리, 초콜릿, 당밀</div>
+                <div class="product-roast">다크 로스트</div>
+                <div class="product-name">블렌드<br>벨라 도노반</div>
+                <div class="add-cart">카트에 추가 | ₩25,000</div>
+            </div>
+        </div>
     </div>
 
     <div class="product">
-        <img src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.jpg" alt="헤이즈 벨리 에스프레소 원두"
-             onmouseover="this.src='./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg'"
-             onmouseout="this.src='./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.jpg'">
-        <div class="product-name">블렌드<br>헤이즈 밸리 에스프레소</div>
-        <div class="soldout">품절</div>
+        <div class="image-wrapper">
+            <img src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.jpg" alt="헤이즈 벨리 에스프레소 원두"
+                 onmouseover="this.src='./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg'"
+                 onmouseout="this.src='./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.jpg'">
+            <div class="overlay">
+                <div class="product-name">블렌드<br>헤이즈 밸리 에스프레소</div>
+                <div class="soldout">품절</div>
+            </div>
+        </div>
     </div>
 
     <div class="product">
-        <img src="./assets/images/블렌드/자이언트 스텝스 원두.jpg" alt="자이언트 스텝스 원두"
-             onmouseover="this.src='./assets/images/블렌드/자이언트 스텝스.jpg'"
-             onmouseout="this.src='./assets/images/블렌드/자이언트 스텝스 원두.jpg'">
-        <div class="product-name">블렌드<br>자이언트 스텝스</div>
-        <div class="add-cart">카트에 추가 | ₩25,000</div>
+        <div class="image-wrapper">
+            <img src="./assets/images/블렌드/자이언트 스텝스 원두.jpg" alt="자이언트 스텝스 원두"
+                 onmouseover="this.src='./assets/images/블렌드/자이언트 스텝스.jpg'"
+                 onmouseout="this.src='./assets/images/블렌드/자이언트 스텝스 원두.jpg'">
+            <div class="overlay">
+                <div class="product-name">블렌드<br>자이언트 스텝스</div>
+                <div class="add-cart">카트에 추가 | ₩25,000</div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="all-view">
@@ -119,18 +133,28 @@
 <h4>싱글 오리진</h4>
 <div class="product-container">
     <div class="product">
-        <img src="./assets/images/싱글 오리진/르완다 냐마세케 냐부메라 워시드 원두.jpg" alt="르완다 냐마세케 냐부메라 워시드 원두"
-             onmouseover="this.src='./assets/images/싱글 오리진/르완다 냐마세케 냐부메라 워시드.jpg'"
-             onmouseout="this.src='./assets/images/싱글 오리진/르완다 냐마세케 냐부메라 워시드 원두.jpg'">
-        <div class="product-name">르완다 냐마세케 냐부메라 워시드</div>
-        <div class="soldout">품절</div>
+        <div class="image-wrapper">
+            <div class="ribbon">신제품</div>
+            <img src="./assets/images/싱글 오리진/르완다 냐마세케 냐부메라 워시드 원두.jpg" alt="르완다 냐마세케 냐부메라 워시드 원두"
+                 onmouseover="this.src='./assets/images/싱글 오리진/르완다 냐마세케 냐부메라 워시드.jpg'"
+                 onmouseout="this.src='./assets/images/싱글 오리진/르완다 냐마세케 냐부메라 워시드 원두.jpg'">
+            <div class="overlay">
+                <div class="product-name">르완다 냐마세케 냐부메라 워시드</div>
+                <div class="add-cart">카트에 추가 | ₩35,000</div>
+            </div>
+        </div>
     </div>
     <div class="product">
-        <img src="./assets/images/싱글 오리진/온두라스 산타 엘레나 카트라차 커뮤니티 원두.jpg" alt="온두라스 산타 엘레나 카트라차 커뮤니티 원두"
-             onmouseover="this.src='./assets/images/싱글 오리진/온두라스 산타 엘레나 카트라차 커뮤니티.jpg'"
-             onmouseout="this.src='./assets/images/싱글 오리진/온두라스 산타 엘레나 카트라차 커뮤니티 원두.jpg'">
-        <div class="product-name">온두라스 산타 엘레나 카트라차 커뮤니티</div>
-        <div class="soldout">품절</div>
+        <div class="image-wrapper">
+            <div class="ribbon">신제품</div>
+            <img src="./assets/images/싱글 오리진/온두라스 산타 엘레나 카트라차 커뮤니티 원두.jpg" alt="온두라스 산타 엘레나 카트라차 커뮤니티 원두"
+                 onmouseover="this.src='./assets/images/싱글 오리진/온두라스 산타 엘레나 카트라차 커뮤니티.jpg'"
+                 onmouseout="this.src='./assets/images/싱글 오리진/온두라스 산타 엘레나 카트라차 커뮤니티 원두.jpg'">
+            <div class="overlay">
+                <div class="product-name">온두라스 산타 엘레나 카트라차 커뮤니티</div>
+                <div class="add-cart">카트에 추가 | ₩35,000</div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -138,15 +162,23 @@
 <h4>휴먼 메이드</h4>
 <div class="product-container">
     <div class="product">
-        <img src="./assets/images/휴먼 메이드/휴먼 메이드 패스트 블렌드 원두.jpg" alt="휴먼 메이드 패스트 블렌드 원두">
-        <div class="product-name">휴먼 메이드 패스트 블렌드</div>
-        <div class="soldout">품절</div>
+        <div class="image-wrapper">
+            <img src="./assets/images/휴먼 메이드/휴먼 메이드 패스트 블렌드 원두.jpg" alt="휴먼 메이드 패스트 블렌드 원두">
+            <div class="overlay">
+                <div class="product-name">휴먼 메이드 패스트 블렌드</div>
+                <div class="soldout">품절</div>
+            </div>
+        </div>
     </div>
 
     <div class="product">
-        <img src="./assets/images/휴먼 메이드/휴먼 메이드 퓨처 블렌드 원두.jpg" alt="휴먼 메이드 퓨처 블렌드 원두">
-        <div class="product-name">휴먼 메이드 퓨처 블렌드</div>
-        <div class="soldout">품절</div>
+        <div class="image-wrapper">
+            <img src="./assets/images/휴먼 메이드/휴먼 메이드 퓨처 블렌드 원두.jpg" alt="휴먼 메이드 퓨처 블렌드 원두">
+            <div class="overlay">
+                <div class="product-name">휴먼 메이드 퓨처 블렌드</div>
+                <div class="soldout">품절</div>
+            </div>
+        </div>
     </div>
 </div>
 
