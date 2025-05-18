@@ -47,8 +47,8 @@
 
 /* 메인 이미지 스타일링 */
 .main-banner img {
-    width: 50%; /* 이미지가 페이지 전체 너비 차지 */
-    height: auto; /* 높이는 비율에 맞게 자동 조정 */
+    width: 100%; /* 이미지가 페이지 전체 너비 차지 */
+    height: 75%; /* 높이는 비율에 맞게 자동 조정 */
 }
 
 /* 메인 배너 이미지 위에 표시될 텍스트 스타일링 */
@@ -129,19 +129,20 @@ body {
 .image-wrapper {
     position: relative;
     width: 100%;
-    padding-top: 75%; /* 비율 유지용 (4:3) */
     overflow: hidden;
 }
+
 .image-wrapper img {
-    position: absolute;
+    position: relative; /* absolute 대신 relative 사용 */
     top: 0;
-    left: 100%;
-    transform: translateX(-50%);
-    width: 100%;
-    height: auto;
+    left: 0; /* 왼쪽 정렬을 명시적으로 지정 */
+    transform: none; /* 기존 transform 제거 */
+    width: 100%; /* 부모의 너비에 맞추기 */
+    height: auto; /* 높이 자동 비율 유지 */
     transition: opacity 0.5s ease;
     display: block;
 }
+
 .image-caption {
     position: absolute;
     bottom: 12px;
