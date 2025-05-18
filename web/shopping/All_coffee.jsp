@@ -85,28 +85,67 @@
 </div>
 
 <!-- 블렌드 상품 목록 -->
-<div class="blend-section">
-    <h2>블렌드</h2>
-    <div class="blend-container">
-        <div class="blend-item">
-            <img src="./assets/images/블렌드/벨라 도노반.jpg" alt="벨라 도노반">
-            <div class="blend-name">블렌드</div>
-            <div class="blend-title">벨라 도노반</div>
-        </div>
-        <div class="blend-item">
-            <img src="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg" alt="헤이즈 밸리 에스프레소">
-            <div class="blend-name">블렌드</div>
-            <div class="blend-title">헤이즈 밸리 에스프레소</div>
-        </div>
-        <div class="blend-item">
-            <img src="./assets/images/블렌드/자이언트 스텝스.jpg" alt="자이언트 스텝스">
-            <div class="blend-name">블렌드</div>
-            <div class="blend-title">자이언트 스텝스</div>
+<div class="row justify-content-center">
+    <div class="container">
+        <h5 class="ms-5 mb-3">블렌드</h5>
+    </div>
+
+    <div class="col-auto">
+        <div class="card card-1 position-relative" style="width: 21rem;">
+            <div class="image-wrapper">
+                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
+                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+            </div>
         </div>
     </div>
 
-    <button class="view-all-btn">모두 보기</button>
-</div>
+    <div class="col-auto">
+        <div class="card card-1 position-relative" style="width: 21rem;">
+            <div class="card-body">
+                <h5 class="card-title mt-5">라떼 컵 세트</h5>
+            </div>
+            <div class="image-wrapper">
+                <img src="./images/btn2.webp" class="card-img-top base-img w-75 mx-auto d-block" alt="...">
+                <img src="./images/btn2_hover.webp" class="card-img-top hover-img w-75 mx-auto d-block" alt="...">
+            </div>
+            <div class="card-body">
+                <p class="card-text mt-3">블루보틀 카페에서 사용되는 컵과 소서 세트</p>
+            </div>
+            <a href="#" class="btn btn-light detail-btn my-detail">자세히 보기</a>
+        </div>
+    </div>
+    <div class="col-auto">
+        <div class="card card-1 position-relative" style="width: 21rem;">
+            <div class="card-body">
+                <h5 class="card-title mt-5 mb-2">크래프트 인스턴트 커피<br>에스프레스</h5>
+            </div>
+            <div class="image-wrapper">
+                <img src="./images/btn3.webp" class="card-img-top base-img w-75 mx-auto d-block" alt="...">
+                <img src="./images/btn3_hover.webp" class="card-img-top hover-img w-75 mx-auto d-block" alt="...">
+            </div>
+            <div class="card-body">
+                <p class="card-text mt-3">간편하게 즐기는 카페 퀄리티의 라떼</p>
+            </div>
+            <a href="#" class="btn btn-light detail-btn my-detail">자세히 보기</a>
+        </div>
+    </div>
+    <div class="col-auto">
+        <div class="card card-1 position-relative" style="width: 21rem;">
+            <div class="card-body">
+                <h5 class="card-title mt-5">데이오프 텀블러</h5>
+            </div>
+            <div class="image-wrapper">
+                <img src="./images/btn4.webp" class="card-img-top base-img w-75 mx-auto d-block" alt="...">
+                <img src="./images/btn4_hover.webp" class="card-img-top hover-img w-75 mx-auto d-block" alt="...">
+            </div>
+            <div class="card-body">
+                <p class="card-text mt-3">간결한 디자인에 기능이 더해진 텀블러</p>
+            </div>
+            <a href="#" class="btn btn-light detail-btn my-detail">자세히 보기</a>
+        </div>
+    </div>
+</div><br><br><br><br>
 
 <!-- 싱글 오리진 상품 목록 -->
 
