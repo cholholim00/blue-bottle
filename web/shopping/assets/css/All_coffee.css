@@ -54,15 +54,15 @@ body {
 /* 메인 이미지 스타일링 */
 .main-banner img {
     width: 100%; /* 이미지가 페이지 전체 너비 차지 */
-    height: 70%; /* 높이는 비율에 맞게 자동 조정 */
+    height: 67%; /* 높이는 비율에 맞게 자동 조정 */
 }
 
 /* 메인 배너 이미지 위에 표시될 텍스트 스타일링 */
 .banner-text {
     position: absolute; /* 절대 위치 (부모 요소 기준) */
-    bottom: 15%; /* 하단에서 15% 위 */
-    left: 5%; /* 왼쪽에서 5% 위치 */
-    font-size: 2rem; /* 폰트 크기 */
+    bottom: 20%; /* 하단에서 15% 위 */
+    left: 3%; /* 왼쪽에서 5% 위치 */
+    font-size: 2.7em; /* 폰트 크기 */
     font-weight: bold; /* 폰트 굵게 */
     color: #ffffff; /* 텍스트 색상 흰색 */
 }
@@ -127,7 +127,7 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: #F7F4EE;
+    /* background-color: #F7F4EE; */
 }
 
 .image-wrapper img {
@@ -178,4 +178,6 @@ body {
 }
 .card-1:hover .base-img {
     opacity: 0;
+}
+.btn-outline-secondary{
 }
