@@ -133,6 +133,16 @@ body {
     flex-direction: column;
     align-items: center;
 }
+.card .blend-label,
+.card .coffee-name {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.card:hover .blend-label,
+.card:hover .coffee-name {
+  color: white;
+}
 
 .image-wrapper {
     position: relative;
@@ -157,19 +167,19 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
   }
   
-  .caption-top {
-    font-size: 12px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.6);
-    margin-bottom: 2px;
-  }
+.caption-top {
+   font-size: 12px;
+   font-weight: 500;
+   color: rgba(0, 0, 0, 0.6);
+   margin-bottom: 2px;
+}
   
-  .caption-bottom {
-    font-size: 14px;
-    font-weight: 700;
-    color: rgba(0, 0, 0, 0.87);
-    margin-bottom: 4px;
-  }
+.caption-bottom {
+   font-size: 14px;
+   font-weight: 700;
+   color: rgba(0, 0, 0, 0.87);
+   margin-bottom: 4px;
+}
 
 .caption-status {
     position: absolute;
@@ -191,13 +201,13 @@ body {
     box-sizing: border-box;
 }
   
-  .caption-bottom {
+.caption-bottom {
     font-size: 14px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.87);
     margin-bottom: 4px;
     letter-spacing: -0.3px;
-  }
+}
 
 .hover-caption-top {
     position: absolute;
@@ -214,16 +224,16 @@ body {
     pointer-events: none; /* 클릭 방지 */
   }
   
-  .hover-caption-top .sub {
+.hover-caption-top .sub {
     font-weight: normal;
     font-size: 0.85rem;
     margin-top: 4px;
-  }
+}
   
 .card-1:hover .caption-status {
     opacity: 1;
   }
-  .card-1:hover .hover-caption-top {
+.card-1:hover .hover-caption-top {
     opacity: 1;
   }
 

@@ -97,65 +97,113 @@
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-1', 'hover')"
+             onmouseleave="changeImage('bella-img-1', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <!-- 상단 설명 텍스트 -->
             <div class="hover-caption-top"><br>
                 <h5>라즈베리, 초콜릿, 당밀</h5>
                 <h6 class="sub">다크 로스트</h6>
+              </div>
+            <div class="image-wrapper" style="position: relative; height: 100%;">
+                <img id="bella-img-1"
+                     src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-default="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
+                     alt="벨라 도노반">
+                <div class="image-caption" style= "bottom: 80px;">
+                    <div class="caption-top" style="margin-top: 8px;"><p class="blend-label" style="font-size: 14px;">블렌드</p></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">벨라 도노반</h5></div>
+                </div>
+            </div>
+            <div class="caption-status"
+            style="background-color: rgba(242, 242, 242, 0.5);
+            cursor: not-allowed;
+            pointer-events: auto;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0;">
+            <span style="font-size: 1rem;">품절</span>
+        </div>
+        </div>
+    </div>
+
+    <div class="col-auto">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-2', 'hover')"
+             onmouseleave="changeImage('bella-img-2', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+            <!-- 상단 설명 텍스트 -->
+            <div class="hover-caption-top"><br>
+                <h5>베이킹 초콜릿, 오렌지필, 당밀</h5>
+                <h6 class="sub">다크 로스팅</h6>
               </div>
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-2"
+                     src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.jpg"
+                     data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.jpg"
+                     data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="벨라 도노반"><br>
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
+                    <div class="caption-top" style="margin-top: 8px;"><p class="blend-label" style="font-size: 14px;">블렌드</p></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">헤이즈 벨리 에스프레소</h5></div>
                 </div>
             </div>
-            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5); margin-left: -0.5rem;"><h5>품절</h5></div>
+            <div class="caption-status"
+            style="background-color: rgba(242, 242, 242, 0.5);
+            cursor: not-allowed;
+            pointer-events: auto;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -0.5rem;">
+            <span style="font-size: 1rem;">품절</span>
+        </div>
         </div>
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-3', 'hover')"
+             onmouseleave="changeImage('bella-img-3', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <!-- 상단 설명 텍스트 -->
             <div class="hover-caption-top"><br>
-                <h5>라즈베리, 초콜릿, 당밀</h5>
-                <h6 class="sub">다크 로스트</h6>
+                <h5>코코아, 구운 마시멜로, 그레이엄 크래커</h5>
+                <h6 class="sub">다크 로스팅</h6>
               </div>
-            <div class="image-wrapper" style="position: relative; height: 100%;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+            <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
+                <img id="bella-img-3"
+                     src="./assets/images/블렌드/자이언트 스텝스 원두.jpg"
+                     data-default="./assets/images/블렌드/자이언트 스텝스 원두.jpg"
+                     data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="자이언트 스텝스">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
+                    <div class="caption-top" style="margin-top: 8px;"><p class="blend-label" style="font-size: 14px;">블렌드</p></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">자이언트 스텝스</h5></div>
                 </div>
             </div>
-            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5);"><h5>품절</h5></div>
+            <div class="caption-status"
+            style="background-color: rgba(242, 242, 242, 0.5);
+            cursor: not-allowed;
+            pointer-events: auto;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: -1rem;">
+            <span style="font-size: 1rem;">품절</span>
         </div>
-    </div>
-
-    <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
-            <!-- 상단 설명 텍스트 -->
-            <div class="hover-caption-top"><br>
-                <h5>라즈베리, 초콜릿, 당밀</h5>
-                <h6 class="sub">다크 로스트</h6>
-              </div>
-            <div class="image-wrapper" style="position: relative; height: 100%;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
-                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
-                <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
-                </div>
-            </div>
-            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5);"><h5>품절</h5></div>
         </div>
     </div>
 
@@ -174,81 +222,114 @@
     </div><br><br><br><br>
 
 <!-- 싱글 오리진 상품 목록 -->
-<div class="row justify-content-center" style="margin-left: -2rem;">
+<div class="row justify-content-center">
     <div class="container"><br>
         <h4 class="mb-2" style="margin-left:14rem !important;">싱글 오리진</h4>
         <br>
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb;">
-            <!-- 상단 설명 텍스트 -->
-            <div class="hover-caption-top"><br>
-                <h5>라즈베리, 초콜릿, 당밀</h5>
-                <h6 class="sub">다크 로스트</h6>
-              </div>
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-4', 'hover')"
+             onmouseleave="changeImage('bella-img-4', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb;">
+
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <div class="ripon">
                   <span>신제품</span>
                 </div>
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-4"
+                     src="./assets/images/싱글 오리진/엘살바도르 아이다 바틀레 핀카 탄자니아 원두.jpg"
+                     data-default="./assets/images/싱글 오리진/엘살바도르 아이다 바틀레 핀카 탄자니아 원두.jpg"
+                     data-hover="./assets/images/싱글 오리진/엘살바도르 아이다 바틀레 핀카 탄자니아.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="엘살바도르 아이다 바틀레 핀카 탄자니아">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>엘살바도르 아이다 바틀레 핀카 탄자니아</h5></div>
                 </div>
             </div>
-            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5);"><h5>품절</h5></div>
+            <div class="caption-status"
+            style="background-color: rgba(242, 242, 242, 0.5);
+            cursor: not-allowed;
+            pointer-events: auto;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0rem;">
+            <span style="font-size: 1rem;">품절</span>
+        </div>
         </div>
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb;">
-            <!-- 상단 설명 텍스트 -->
-            <div class="hover-caption-top"><br>
-                <h5>라즈베리, 초콜릿, 당밀</h5>
-                <h6 class="sub">다크 로스트</h6>
-              </div>
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-5', 'hover')"
+             onmouseleave="changeImage('bella-img-5', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb;">
+
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <div class="ripon">
                   <span>신제품</span>
                 </div>
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-5"
+                     src="./assets/images/싱글 오리진/르완다 냐마세케 냐부메라 워시드 원두.jpg"
+                     data-default="./assets/images/싱글 오리진/르완다 냐마세케 냐부메라 워시드 원두.jpg"
+                     data-hover="./assets/images/싱글 오리진/르완다 냐마세케 냐부메라 워시드.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="르완다 냐마세케 냐부메라 워시드">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>르완다 냐마세케 냐부메라 워시드</h5></div>
                 </div>
             </div>
-            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5);"><h5>품절</h5></div>
+            <div class="caption-status"
+            style="background-color: rgba(242, 242, 242, 0.5);
+            cursor: not-allowed;
+            pointer-events: auto;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0rem;">
+            <span style="font-size: 1rem;">품절</span>
+        </div>
         </div>
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb;">
-            <!-- 상단 설명 텍스트 -->
-            <div class="hover-caption-top"><br>
-                <h5>라즈베리, 초콜릿, 당밀</h5>
-                <h6 class="sub">다크 로스트</h6>
-              </div>
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-6', 'hover')"
+             onmouseleave="changeImage('bella-img-6', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb;">
+
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <div class="ripon">
                   <span>신제품</span>
                 </div>
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-6"
+                     src="./assets/images/싱글 오리진/온두라스 산타 엘레나 카트라차 커뮤니티 원두.jpg"
+                     data-default="./assets/images/싱글 오리진/온두라스 산타 엘레나 카트라차 커뮤니티 원두.jpg"
+                     data-hover="./assets/images/싱글 오리진/온두라스 산타 엘레나 카트라차 커뮤니티.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="온두라스 산타 엘레나 카트라차 커뮤니티">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>온두라스 산타 엘레나 카트라차 커뮤니티</h5></div>
                 </div>
             </div>
-            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5);"><h5>품절</h5></div>
+            <div class="caption-status"
+            style="background-color: rgba(242, 242, 242, 0.5);
+            cursor: not-allowed;
+            pointer-events: auto;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0rem;">
+            <span style="font-size: 1rem;">품절</span>
+        </div>
         </div>
     </div>
     </div><br><br><br><br>
@@ -261,45 +342,67 @@
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb;">
-            <!-- 상단 설명 텍스트 -->
-            <div class="hover-caption-top"><br>
-                <h5>라즈베리, 초콜릿, 당밀</h5>
-                <h6 class="sub">다크 로스트</h6>
-              </div>
-            <div class="image-wrapper" style="position: relative; height: 100%; ">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-6', 'hover')"
+             onmouseleave="changeImage('bella-img-6', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb;">
+
+            <div class="image-wrapper" style="position: relative; height: 100%;">
+                <img id="bella-img-6"
+                     src="./assets/images/휴먼 메이드/휴먼 메이드 패스트 블렌드 원두.jpg"
+                     data-default="./assets/images/휴먼 메이드/휴먼 메이드 패스트 블렌드 원두.jpg"
+                     data-hover="./assets/images/휴먼 메이드/휴먼 메이드 패스트 블렌드 원두.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="휴먼 메이드 패스트 블렌드 원두">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>휴먼 메이드 패스트 블렌드</h5></div>
                 </div>
             </div>
-            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5);"><h5>품절</h5></div>
+            <div class="caption-status"
+            style="background-color: rgba(242, 242, 242, 0.5);
+            cursor: not-allowed;
+            pointer-events: auto;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0rem;">
+            <span style="font-size: 1rem;">품절</span>
+        </div>
         </div>
     </div>
 
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb;">
-            <!-- 상단 설명 텍스트 -->
-            <div class="hover-caption-top"><br>
-                <h5>라즈베리, 초콜릿, 당밀</h5>
-                <h6 class="sub">다크 로스트</h6>
-              </div>
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-6', 'hover')"
+             onmouseleave="changeImage('bella-img-6', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb;">
+
             <div class="image-wrapper" style="position: relative; height: 100%;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-6"
+                     src="./assets/images/휴먼 메이드/휴먼 메이드 퓨처 블렌드 원두.jpg"
+                     data-default="./assets/images/휴먼 메이드/휴먼 메이드 퓨처 블렌드 원두.jpg"
+                     data-hover="./assets/images/휴먼 메이드/휴먼 메이드 퓨처 블렌드 원두.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="휴먼 메이드 퓨처 블렌드 원두">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>휴먼 메이드 퓨처 블렌드 원두</h5></div>
                 </div>
             </div>
-            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5);"><h5>품절</h5></div>
+            <div class="caption-status"
+            style="background-color: rgba(242, 242, 242, 0.5);
+            cursor: not-allowed;
+            pointer-events: auto;
+            width: 100%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0rem;">
+            <span style="font-size: 1rem;">품절</span>
+        </div>
         </div>
     </div>
     </div><br><br><br><br>
@@ -312,17 +415,22 @@
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-7', 'hover')"
+             onmouseleave="changeImage('bella-img-7', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <!-- 상단 설명 텍스트 -->
             <div class="hover-caption-top"><br>
                 <h5>라즈베리, 초콜릿, 당밀</h5>
                 <h6 class="sub">다크 로스트</h6>
               </div>
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-7"
+                     src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-default="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="벨라 도노반">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
@@ -333,17 +441,22 @@
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-8', 'hover')"
+             onmouseleave="changeImage('bella-img-8', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <!-- 상단 설명 텍스트 -->
             <div class="hover-caption-top"><br>
                 <h5>라즈베리, 초콜릿, 당밀</h5>
                 <h6 class="sub">다크 로스트</h6>
               </div>
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-8"
+                     src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-default="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="벨라 도노반">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
@@ -354,17 +467,22 @@
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-9', 'hover')"
+             onmouseleave="changeImage('bella-img-9', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <!-- 상단 설명 텍스트 -->
             <div class="hover-caption-top"><br>
                 <h5>라즈베리, 초콜릿, 당밀</h5>
                 <h6 class="sub">다크 로스트</h6>
               </div>
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-9"
+                     src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-default="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="벨라 도노반">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
@@ -396,17 +514,22 @@
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-10', 'hover')"
+             onmouseleave="changeImage('bella-img-10', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <!-- 상단 설명 텍스트 -->
             <div class="hover-caption-top"><br>
                 <h5>라즈베리, 초콜릿, 당밀</h5>
                 <h6 class="sub">다크 로스트</h6>
               </div>
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-10"
+                     src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-default="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="벨라 도노반">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
@@ -417,38 +540,48 @@
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-11', 'hover')"
+             onmouseleave="changeImage('bella-img-11', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <!-- 상단 설명 텍스트 -->
             <div class="hover-caption-top"><br>
                 <h5>라즈베리, 초콜릿, 당밀</h5>
                 <h6 class="sub">다크 로스트</h6>
               </div>
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-11"
+                     src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-default="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="벨라 도노반">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
                 </div>
             </div>
-            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5);"><h6>품절</h6></div>
+            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5); cursor: not-allowed;"><h6>품절</h6></div>
         </div>
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-12', 'hover')"
+             onmouseleave="changeImage('bella-img-12', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <!-- 상단 설명 텍스트 -->
             <div class="hover-caption-top"><br>
                 <h5>라즈베리, 초콜릿, 당밀</h5>
                 <h6 class="sub">다크 로스트</h6>
               </div>
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-12"
+                     src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-default="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="벨라 도노반">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
@@ -468,17 +601,48 @@
     </div>
 
     <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-13', 'hover')"
+             onmouseleave="changeImage('bella-img-13', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <!-- 상단 설명 텍스트 -->
             <div class="hover-caption-top"><br>
                 <h5>라즈베리, 초콜릿, 당밀</h5>
                 <h6 class="sub">다크 로스트</h6>
               </div>
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img id="bella-img-13"
+                     src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-default="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="벨라 도노반">
+                <div class="image-caption" style= "bottom: 80px;">
+                    <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
+                </div>
+            </div>
+            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5);"><h6>카드에 추가 | ₩37,800</h6></div>
+        </div>
+    </div>
+
+    <div class="col-auto">
+        <div class="card card-1 position-relative"
+             onmouseenter="changeImage('bella-img-14', 'hover')"
+             onmouseleave="changeImage('bella-img-14', 'default')"
+             style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
+            <!-- 상단 설명 텍스트 -->
+            <div class="hover-caption-top"><br>
+                <h5>라즈베리, 초콜릿, 당밀</h5>
+                <h6 class="sub">다크 로스트</h6>
+              </div>
+            <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
+                <img id="bella-img-14"
+                     src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-default="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
+                     alt="벨라 도노반">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
@@ -496,31 +660,12 @@
                 <h6 class="sub">다크 로스트</h6>
               </div>
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                <img
+                     src="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-default="./assets/images/블렌드/벨라 도노반 원두.jpg"
+                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
-                <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
-                </div>
-            </div>
-            <div class="caption-status" style="background-color: rgba(242, 242, 242, 0.5);"><h6>카드에 추가 | ₩37,800</h6></div>
-        </div>
-    </div>
-
-    <div class="col-auto">
-        <div class="card card-1 position-relative" style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
-            <!-- 상단 설명 텍스트 -->
-            <div class="hover-caption-top"><br>
-                <h5>라즈베리, 초콜릿, 당밀</h5>
-                <h6 class="sub">다크 로스트</h6>
-              </div>
-            <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
-                <img src="./assets/images/블렌드/벨라 도노반 원두.jpg"
-                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     onmouseover="this.src='./assets/images/블렌드/벨라 도노반.jpg'"
-                     onmouseout="this.src='./assets/images/블렌드/벨라 도노반 원두.jpg'" alt="벨라 도노반">
+                     alt="벨라 도노반">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-top" style="margin-top: 8px;"><h6>블렌드</h6></div>
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5>벨라 도노반</h5></div>
@@ -602,5 +747,18 @@
     </div>
 </div>
 </div>
+
+<!-- 이미지 적용 기능(호버) -->
+<script>
+    function changeImage(id, mode) {
+        const img = document.getElementById(id);
+        if (!img) return;
+      
+        const hoverSrc = img.getAttribute("data-hover");
+        const defaultSrc = img.getAttribute("data-default");
+      
+        img.src = mode === 'hover' ? hoverSrc : defaultSrc;
+      }
+</script>
 </body>
 </html>
