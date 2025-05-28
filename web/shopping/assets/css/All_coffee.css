@@ -306,6 +306,3 @@ transform: rotate(45deg);
     opacity: 0.6;
     color: inherit !important;
   }
-.ms-custom {
-    margin-left: 13rem; /* 원하는 여백 크기로 조정 가능 */
-}
