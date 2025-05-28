@@ -203,8 +203,19 @@ body {
 }
 
 a.add-to-cart {
-    color: black;
-    text-decoration: none; /* 밑줄 제거 (선택사항) */
+    display: inline-block;        /* 블록처럼 영역화 */
+    padding: 5px 10px;  /* 내부 여백 */
+    height: 40px;              
+    width: 100%;            /* 카드 너비에 맞춤 */
+    background-color: rgb(84, 84, 84);    /* 기본 배경 색 */
+    color: white;                 /* 기본 텍스트 색 */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  a.add-to-cart:hover {
+    background-color: black;      /* 커서가 닿으면 검은 배경 */
+    color: white;                 /* 텍스트는 흰색으로 (가독성) */
   }
 
 .caption-bottom {
