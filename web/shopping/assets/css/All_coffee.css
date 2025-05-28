@@ -201,7 +201,12 @@ body {
     max-width: 100%;
     box-sizing: border-box;
 }
-  
+
+a.add-to-cart {
+    color: black;
+    text-decoration: none; /* 밑줄 제거 (선택사항) */
+  }
+
 .caption-bottom {
     font-size: 14px;
     font-weight: 700;
