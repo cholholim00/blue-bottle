@@ -11,6 +11,6 @@
     <title>서버</title>
 </head>
 <body>
-<h1>서버 연결 성공<a href="shopping/All_coffee.html">쇼핑 페이지 넘어가기</a></h1>
+<h1>서버 연결 성공<a href="shopping/All_coffee.jsp">쇼핑 페이지 넘어가기</a></h1>
 </body>
 </html>
