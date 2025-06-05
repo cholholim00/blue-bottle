@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>관리자 페이지</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            height: 100vh;
+            background-color: #f4f6f8;
+        }
+
+        .sidebar {
+            width: 240px;
+            background-color: #1e1e2f;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .sidebar h1 {
+            font-size: 24px;
+            margin-bottom: 40px;
+            color: #00c7ae;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            display: block;
+            transition: background-color 0.2s;
+        }
+
+        .sidebar a:hover {
+            background-color: #33334d;
+            border-radius: 4px;
+            padding-left: 10px;
+        }
+
+        .content {
+            flex-grow: 1;
+            padding: 40px;
+        }
+
+        .content h2 {
+            margin-top: 0;
+        }
+
+        .content p {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h1>관리자 페이지</h1>
+        <a href="/admin/users">👤 사용자 고객 관리</a>
+        <a href="/admin/settings">⚙️ 설정 관리</a>
+        <a href="/admin/reports">📊 전체 주문통계 보기</a>
+        <a href="/admin/products">📦 상품&예약 관리</a>
+        <a href="/admin/orders">🛒 주문&쇼핑핑 관리</a>
+        <a href="/admin/notifications">💬 리뷰 & 게시판 관리</a>
+        <a href="/admin/faq">❓ FAQ 관리</a>
+    </div>
+    <div class="content">
+        <h2>환영합니다, 관리자님!</h2>
+        <p>여기는 관리자 전용 페이지입니다. 좌측 메뉴를 통해 관리 기능을 이용할 수 있습니다.</p>
+    </div>
+</body>
+</html>
