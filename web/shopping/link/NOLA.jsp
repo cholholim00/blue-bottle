@@ -74,7 +74,7 @@ To change this template use File | Settings | File Templates.
 <!-- 메인 이미지 배너 영역 -->
 <div class="main-banner">
   <!-- 메인 이미지 -->
-  <img src="../assets/images/main.jpg" class="img-fluid" alt="메인 이미지">
+  <img src="./Link_img/놀라 메인.jpg" class="img-fluid" alt="메인 이미지">
 
   <!-- 메인 이미지 위에 배치되는 텍스트 -->
   <div class="banner-text">놀라 NOLA</div>
