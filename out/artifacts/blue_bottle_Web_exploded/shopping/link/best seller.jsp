@@ -90,9 +90,9 @@ To change this template use File | Settings | File Templates.
          style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
       <div class="image-wrapper" style="position: relative; height: 100%;">
         <img id="bella-img-1"
-             src="./assets/images/블렌드/벨라 도노반 원두.png"
-             data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-             data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+             src="./Link_img/베스트셀러/트래블 머그 화이트 20oz (591ml)1.png"
+             data-default="./Link_img/베스트셀러/트래블 머그 화이트 20oz (591ml)1.png"
+             data-hover="./Link_img/베스트셀러/트래블 머그 화이트 20oz (591ml)2.jpg"
              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="트래블 머그 화이트 20oz (591ml)">
         <div class="image-caption" style= "bottom: 80px;">
           <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">트래블 머그 화이트 20oz (591ml)</h5></div>
@@ -120,9 +120,9 @@ To change this template use File | Settings | File Templates.
          style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
       <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
         <img id="bella-img-2"
-             src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-             data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-             data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+             src="./Link_img/베스트셀러/블루보틀 커피 에센셜 세트1.png"
+             data-default="./Link_img/베스트셀러/블루보틀 커피 에센셜 세트1.png"
+             data-hover="./Link_img/베스트셀러/블루보틀 커피 에센셜 세트2.jpg"
              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
              alt="블루보틀 커피 에센셜 세트"><br>
         <div class="image-caption" style= "bottom: 80px;">
@@ -151,9 +151,9 @@ To change this template use File | Settings | File Templates.
          style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
       <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
         <img id="bella-img-3"
-             src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-             data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-             data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+             src="./Link_img/베스트셀러/커뮤터컵 16oz(473ml)1.png"
+             data-default="./Link_img/베스트셀러/커뮤터컵 16oz(473ml)1.png"
+             data-hover="./Link_img/베스트셀러/커뮤터컵 16oz(473ml)2.jpg"
              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
              alt="커뮤터컵 16oz(473ml)">
         <div class="image-caption" style= "bottom: 80px;">
@@ -186,9 +186,9 @@ To change this template use File | Settings | File Templates.
          style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
       <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
         <img id="bella-img-4"
-             src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-             data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-             data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+             src="./Link_img/베스트셀러/데이오프 텀블러(500ml)1.png"
+             data-default="./Link_img/베스트셀러/데이오프 텀블러(500ml)1.png"
+             data-hover="./Link_img/베스트셀러/데이오프 텀블러(500ml)2.jpg"
              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
              alt="데이오프 텀블러(500ml)"><br>
         <div class="image-caption" style= "bottom: 80px;">
@@ -217,9 +217,9 @@ To change this template use File | Settings | File Templates.
          style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
       <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
         <img id="bella-img-5"
-             src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-             data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-             data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+             src="./Link_img/브루잉/블루보틀 커피 드리퍼1.png"
+             data-default="./Link_img/브루잉/블루보틀 커피 드리퍼1.png"
+             data-hover="./Link_img/브루잉/블루보틀 커피 드리퍼2.jpg"
              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
              alt="블루보틀 커피 드리퍼">
         <div class="image-caption" style= "bottom: 80px;">
@@ -248,9 +248,9 @@ To change this template use File | Settings | File Templates.
          style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
       <div class="image-wrapper" style="position: relative; height: 100%;">
         <img id="bella-img-6"
-             src="./assets/images/블렌드/벨라 도노반 원두.png"
-             data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-             data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+             src="./Link_img/베스트셀러/콜드브루 커피 (236ml) 브라이트 3캔 & 볼드 3캔 선물 세트.jpg"
+             data-default="./Link_img/베스트셀러/콜드브루 커피 (236ml) 브라이트 3캔 & 볼드 3캔 선물 세트.jpg"
+             data-hover="./Link_img/베스트셀러/콜드브루.jpg"
              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="콜드브루 커피 (236ml) 브라이트 3캔 & 볼드 3캔 선물 세트">
         <div class="image-caption" style= "bottom: 80px;">
           <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">콜드브루 커피 (236ml) 브라이트 3캔 & 볼드 3캔 선물 세트</h5></div>
@@ -281,9 +281,9 @@ To change this template use File | Settings | File Templates.
          style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
       <div class="image-wrapper" style="position: relative; height: 100%;">
         <img id="bella-img-7"
-             src="./assets/images/블렌드/벨라 도노반 원두.png"
-             data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-             data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+             src="./Link_img/베스트셀러/크래프트 인스턴트 커피 에스프레소1.jpg"
+             data-default="./Link_img/베스트셀러/크래프트 인스턴트 커피 에스프레소1.jpg"
+             data-hover="./Link_img/베스트셀러/크래프트 인스턴트 커피 에스프레소2.jpg"
              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="크래프트 인스턴트 커피 에스프레소">
         <div class="image-caption" style= "bottom: 80px;">
           <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">크래프트 인스턴트 커피 에스프레소</h5></div>
@@ -311,9 +311,9 @@ To change this template use File | Settings | File Templates.
          style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
       <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
         <img id="bella-img-8"
-             src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-             data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-             data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+             src="./Link_img/컵과 텀블러/클리어 콜드 텀블러 20oz (591ml)1.png"
+             data-default="./Link_img/컵과 텀블러/클리어 콜드 텀블러 20oz (591ml)1.png"
+             data-hover="./Link_img/컵과 텀블러/클리어 콜드 텀블러 20oz (591ml)2.jpg"
              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
              alt="클리어 콜드 텀블러 20oz (591ml)"><br>
         <div class="image-caption" style= "bottom: 80px;">
@@ -342,9 +342,9 @@ To change this template use File | Settings | File Templates.
          style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
       <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
         <img id="bella-img-9"
-             src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-             data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-             data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+             src="./Link_img/컵과 텀블러/클리어 콜드 텀블러 16oz (454ml)1.png"
+             data-default="./Link_img/컵과 텀블러/클리어 콜드 텀블러 16oz (454ml)1.png"
+             data-hover="./Link_img/컵과 텀블러/클리어 콜드 텀블러 16oz (454ml)2.jpg"
              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
              alt="클리어 콜드 텀블러 16oz (454ml)">
         <div class="image-caption" style= "bottom: 80px;">

@@ -75,7 +75,7 @@ To change this template use File | Settings | File Templates.
 <!-- 메인 이미지 배너 영역 -->
 <div class="main-banner">
     <!-- 메인 이미지 -->
-    <img src="../assets/images/main.jpg" class="img-fluid" alt="메인 이미지">
+    <img src="./Link_img/라이프스타일 메인.jpg" class="img-fluid" alt="메인 이미지">
 
     <!-- 메인 이미지 위에 배치되는 텍스트 -->
     <div class="banner-text">커피</div>
@@ -91,9 +91,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <img id="bella-img-1"
-                     src="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+                     src="./Link_img/라이프 스타일/엠브로이더리 에코 백 -블루보틀-1.png"
+                     data-default="./Link_img/라이프 스타일/엠브로이더리 에코 백 -블루보틀-1.png"
+                     data-hover="./Link_img/라이프 스타일/엠브로이더리 에코 백 -블루보틀-2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="엠브로이더리 에코 백 -블루보틀-">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">엠브로이더리 에코 백 -블루보틀-</h5></div>
@@ -121,9 +121,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
                 <img id="bella-img-2"
-                     src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+                     src="./Link_img/라이프 스타일/커피트럭 키 체인1.png"
+                     data-default="./Link_img/라이프 스타일/커피트럭 키 체인1.png"
+                     data-hover="./Link_img/라이프 스타일/커피트럭 키 체인2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="커피트럭 키 체인"><br>
                 <div class="image-caption" style= "bottom: 80px;">
@@ -153,9 +153,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
                 <img id="bella-img-3"
-                     src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+                     src="./Link_img/라이프 스타일/런치백1.png"
+                     data-default="./Link_img/라이프 스타일/런치백1.png"
+                     data-hover="./Link_img/라이프 스타일/런치백2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="런치백">
                 <div class="image-caption" style= "bottom: 80px;">
@@ -187,9 +187,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <img id="bella-img-4"
-                     src="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+                     src="./Link_img/라이프 스타일/마켓백1.png"
+                     data-default="./Link_img/라이프 스타일/마켓백1.png"
+                     data-hover="./Link_img/라이프 스타일/마켓백2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="마켓백">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">마켓백</h5></div>
@@ -217,9 +217,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
                 <img id="bella-img-5"
-                     src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+                     src="./Link_img/라이프 스타일/그레이 코튼 쿨러백1.png"
+                     data-default="./Link_img/라이프 스타일/그레이 코튼 쿨러백1.png"
+                     data-hover="./Link_img/라이프 스타일/그레이 코튼 쿨러백2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="그레이 코튼 쿨러백"><br>
                 <div class="image-caption" style= "bottom: 80px;">
@@ -248,9 +248,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
                 <img id="bella-img-6"
-                     src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+                     src="./Link_img/라이프 스타일/서울 토트백1.png"
+                     data-default="./Link_img/라이프 스타일/서울 토트백1.png"
+                     data-hover="./Link_img/라이프 스타일/서울 토트백2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="서울 토트백">
                 <div class="image-caption" style= "bottom: 80px;">
@@ -282,9 +282,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <img id="bella-img-7"
-                     src="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+                     src="./Link_img/라이프 스타일/스톤 플레이트1.png"
+                     data-default="./Link_img/라이프 스타일/스톤 플레이트1.png"
+                     data-hover="./Link_img/라이프 스타일/스톤 플레이트2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="스톤 플레이트">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">스톤 플레이트</h5></div>
@@ -312,9 +312,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
                 <img id="bella-img-8"
-                     src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+                     src="./Link_img/라이프 스타일/엠브로이더리 에코 백 -커피 리프-1.png"
+                     data-default="./Link_img/라이프 스타일/엠브로이더리 에코 백 -커피 리프-1.png"
+                     data-hover="./Link_img/라이프 스타일/엠브로이더리 에코 백 -커피 리프-2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="엠브로이더리 에코 백 -커피 리프-"><br>
                 <div class="image-caption" style= "bottom: 80px;">
@@ -343,9 +343,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
                 <img id="bella-img-9"
-                     src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+                     src="./Link_img/라이프 스타일/키요스미 토트백 10주년 에디션1.png"
+                     data-default="./Link_img/라이프 스타일/키요스미 토트백 10주년 에디션1.png"
+                     data-hover="./Link_img/라이프 스타일/키요스미 토트백 10주년 에디션2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="키요스미 토트백 10주년 에디션">
                 <div class="image-caption" style= "bottom: 80px;">

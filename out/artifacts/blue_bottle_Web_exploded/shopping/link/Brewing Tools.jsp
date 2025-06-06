@@ -75,7 +75,7 @@ To change this template use File | Settings | File Templates.
 <!-- 메인 이미지 배너 영역 -->
 <div class="main-banner">
     <!-- 메인 이미지 -->
-    <img src="../assets/images/main.jpg" class="img-fluid" alt="메인 이미지">
+    <img src="./Link_img/브루잉 메인.jpg" class="img-fluid" alt="메인 이미지">
 
     <!-- 메인 이미지 위에 배치되는 텍스트 -->
     <div class="banner-text">브루잉</div>
@@ -91,9 +91,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <img id="bella-img-1"
-                     src="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+                     src="./Link_img/브루잉/콜드브루 피처1.png"
+                     data-default="./Link_img/브루잉/콜드브루 피처1.png"
+                     data-hover="./Link_img/브루잉/콜드브루 피처2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="콜드브루 피처">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">콜드브루 피처</h5></div>
@@ -121,9 +121,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
                 <img id="bella-img-2"
-                     src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+                     src="./Link_img/브루잉/프렌치 프레스1.png"
+                     data-default="./Link_img/브루잉/프렌치 프레스1.png"
+                     data-hover="./Link_img/브루잉/프렌치 프레소2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="프렌치 프레스"><br>
                 <div class="image-caption" style= "bottom: 80px;">
@@ -152,9 +152,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
                 <img id="bella-img-3"
-                     src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+                     src="./Link_img/브루잉/블루보틀 푸어 오버 키트1.png"
+                     data-default="./Link_img/브루잉/블루보틀 푸어 오버 키트1.png"
+                     data-hover="./Link_img/브루잉/블루보틀 푸어 오버 키트2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="블루보틀 푸어 오버 키트">
                 <div class="image-caption" style= "bottom: 80px;">
@@ -187,9 +187,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <img id="bella-img-4"
-                     src="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+                     src="./Link_img/브루잉/하리오 우드 주전자1.png"
+                     data-default="./Link_img/브루잉/하리오 우드 주전자1.png"
+                     data-hover="./Link_img/브루잉/하리오 우드 주전자2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="하리오 우드 주전자">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">하리오 우드 주전자</h5></div>
@@ -216,9 +216,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
                 <img id="bella-img-5"
-                     src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+                     src="./Link_img/브루잉/블루보틀 커피 드리퍼1.png"
+                     data-default="./Link_img/브루잉/블루보틀 커피 드리퍼1.png"
+                     data-hover="./Link_img/브루잉/블루보틀 커피 드리퍼2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="블루보틀 커피 드리퍼"><br>
                 <div class="image-caption" style= "bottom: 80px;">
@@ -247,9 +247,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
                 <img id="bella-img-6"
-                     src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+                     src="./Link_img/브루잉/블루보틀 커피 카라페1.png"
+                     data-default="./Link_img/브루잉/블루보틀 커피 카라페1.png"
+                     data-hover="./Link_img/브루잉/블루보틀 커피 카라페2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="블루보틀 커피 카라페">
                 <div class="image-caption" style= "bottom: 80px;">
@@ -283,9 +283,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <img id="bella-img-7"
-                     src="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
+                     src="./Link_img/브루잉/콜드브루 보틀1.png"
+                     data-default="./Link_img/브루잉/콜드브루 보틀1.png"
+                     data-hover="./Link_img/브루잉/콜드브루 보틀2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="콜드브루 보틀">
                 <div class="image-caption" style= "bottom: 80px;">
                     <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">콜드브루 보틀</h5></div>
@@ -313,9 +313,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
                 <img id="bella-img-8"
-                     src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+                     src="./Link_img/브루잉/블루보틀 커피 필터1.png"
+                     data-default="./Link_img/브루잉/블루보틀 커피 필터1.png"
+                     data-hover="./Link_img/브루잉/블루보틀 커피 필터2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="블루보틀 커피 필터"><br>
                 <div class="image-caption" style= "bottom: 80px;">
@@ -344,9 +344,9 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
                 <img id="bella-img-9"
-                     src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+                     src="./Link_img/브루잉/포렉스 미니 그라인더1.png"
+                     data-default="./Link_img/브루잉/포렉스 미니 그라인더1.png"
+                     data-hover="./Link_img/브루잉/포렉스 미니 그라인더2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="포렉스 미니 그라인더">
                 <div class="image-caption" style= "bottom: 80px;">

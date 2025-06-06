@@ -75,7 +75,7 @@ To change this template use File | Settings | File Templates.
 <!-- 메인 이미지 배너 영역 -->
 <div class="main-banner">
     <!-- 메인 이미지 -->
-    <img src="../assets/images/main.jpg" class="img-fluid" alt="메인 이미지">
+    <img src="./Link_img/컵과 텀블러 메인.jpg" class="img-fluid" alt="메인 이미지">
 
     <!-- 메인 이미지 위에 배치되는 텍스트 -->
     <div class="banner-text">컵과 텀블러</div>
@@ -91,12 +91,12 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <img id="bella-img-1"
-                     src="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
-                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="골든 아워">
+                     src="./Link_img/컵과 텀블러/클리어 콜드 텀블러 20oz (591ml)1.png"
+                     data-default="./Link_img/컵과 텀블러/클리어 콜드 텀블러 20oz (591ml)1.png"
+                     data-hover="./Link_img/컵과 텀블러/클리어 콜드 텀블러 20oz (591ml)2.jpg"
+                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="클리어 콜드 텀블러 20oz (591ml)">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">골든 아워</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">클리어 콜드 텀블러 20oz (591ml)</h5></div>
                 </div>
             </div>
             <div class="caption-status"
@@ -109,7 +109,7 @@ To change this template use File | Settings | File Templates.
             align-items: center;
             justify-content: center;
             margin-left: 0;">
-                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩29,500</span></a>
+                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩47,000</span></a>
             </div>
         </div>
     </div>
@@ -121,13 +121,13 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
                 <img id="bella-img-2"
-                     src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+                     src="./Link_img/컵과 텀블러/클리어 콜드 텀블러 16oz (454ml)1.png"
+                     data-default="./Link_img/컵과 텀블러/클리어 콜드 텀블러 16oz (454ml)1.png"
+                     data-hover="./Link_img/컵과 텀블러/클리어 콜드 텀블러 16oz (454ml)2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
                      alt="벨라 도노반"><br>
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">벨라 도노반</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">클리어 콜드 텀블러 16oz (454ml)</h5></div>
                 </div>
             </div>
             <div class="caption-status"
@@ -140,7 +140,7 @@ To change this template use File | Settings | File Templates.
             align-items: center;
             justify-content: center;
             margin-left: -0.5rem;">
-                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩22,500</span></a>
+                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩44,000</span></a>
             </div>
         </div>
     </div>
@@ -152,13 +152,13 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
                 <img id="bella-img-3"
-                     src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+                     src="./Link_img/컵과 텀블러/블루보틀 텀블러 (500ml)1.png"
+                     data-default="./Link_img/컵과 텀블러/블루보틀 텀블러 (500ml)1.png"
+                     data-hover="./Link_img/컵과 텀블러/블루보틀 텀블러 (500ml)2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     alt="엘사바도르 아이다 바틀레 핀카 탄자니아">
+                     alt="블루보틀 텀블러 (500ml)">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">엘사바도르 아이다 바틀레 핀카 탄자니아</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">블루보틀 텀블러 (500ml)</h5></div>
                 </div>
             </div>
             <div class="caption-status"
@@ -171,7 +171,7 @@ To change this template use File | Settings | File Templates.
             align-items: center;
             justify-content: center;
             margin-left: -1rem;">
-                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩29,500</span></a>
+                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩34,000</span></a>
             </div>
         </div>
     </div>
@@ -186,12 +186,12 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <img id="bella-img-4"
-                     src="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
-                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="르완다 냐마세케 냐부메라 워시드">
+                     src="./Link_img/컵과 텀블러/블루보틀 미니 머그 (200ml)1.jpg"
+                     data-default="./Link_img/컵과 텀블러/블루보틀 미니 머그 (200ml)1.jpg"
+                     data-hover="./Link_img/컵과 텀블러/블루보틀 미니 머그 (200ml)2.jpg"
+                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="블루보틀 미니 머그 (200ml)">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">르완다 냐마세케 냐부메라 워시드</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">블루보틀 미니 머그 (200ml)</h5></div>
                 </div>
             </div>
             <div class="caption-status"
@@ -204,7 +204,7 @@ To change this template use File | Settings | File Templates.
                 align-items: center;
                 justify-content: center;
                 margin-left: 0;">
-                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩29,500</span></a>
+                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩20,000</span></a>
             </div>
         </div>
     </div>
@@ -216,13 +216,13 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
                 <img id="bella-img-5"
-                     src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+                     src="./Link_img/컵과 텀블러/블루보틀 머그 (341ml)1.png"
+                     data-default="./Link_img/컵과 텀블러/블루보틀 머그 (341ml)1.png"
+                     data-hover="./Link_img/컵과 텀블러/블루보틀 머그 (341ml)2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     alt="크래프트 인스턴트 커피 브라이트"><br>
+                     alt="블루보틀 머그 (341ml)"><br>
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">크래프트 인스턴트 커피 브라이트</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">블루보틀 머그 (341ml)</h5></div>
                 </div>
             </div>
             <div class="caption-status"
@@ -235,7 +235,7 @@ To change this template use File | Settings | File Templates.
                 align-items: center;
                 justify-content: center;
                 margin-left: -0.5rem;">
-                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩35,000</span></a>
+                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩26,000</span></a>
             </div>
         </div>
     </div>
@@ -247,14 +247,13 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
                 <img id="bella-img-6"
-                     src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+                     src="./Link_img/컵과 텀블러/제이드 포셀린 라운드 컵1.png"
+                     data-default="./Link_img/컵과 텀블러/제이드 포셀린 라운드 컵1.png"
+                     data-hover="./Link_img/컵과 텀블러/제이드 포셀린 라운드 컵2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     alt="엘사바도르 아이다 바틀레 핀카 탄자니아">
+                     alt="제이드 포셀린 라운드 컵">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name"></h5>블루보틀 온더고 세트
-                    </div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">제이드 포셀린 라운드 컵</h5></div>
                 </div>
             </div>
             <div class="caption-status"
@@ -267,7 +266,7 @@ To change this template use File | Settings | File Templates.
                 align-items: center;
                 justify-content: center;
                 margin-left: -1rem;">
-                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩81,000</span></a>
+                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩45,000</span></a>
             </div>
         </div>
     </div>
@@ -282,12 +281,12 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%;">
                 <img id="bella-img-7"
-                     src="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-default="./assets/images/블렌드/벨라 도노반 원두.png"
-                     data-hover="./assets/images/블렌드/벨라 도노반.jpg"
-                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="휴먼 메이드 패스트 블렌드">
+                     src="./Link_img/컵과 텀블러/커먼 콜드 드링크 글라스 2잔 세트 (각 350ml)1.jpg"
+                     data-default="./Link_img/컵과 텀블러/커먼 콜드 드링크 글라스 2잔 세트 (각 350ml)1.jpg"
+                     data-hover="./Link_img/컵과 텀블러/커먼 콜드 드링크 글라스 2잔 세트 (각 350ml)2.jpg"
+                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;" alt="커먼 콜드 드링크 글라스 2잔 세트 (각 350ml)">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">휴먼 메이드 패스트 블렌드</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">커먼 콜드 드링크 글라스 2잔 세트 (각 350ml)</h5></div>
                 </div>
             </div>
             <div class="caption-status"
@@ -300,7 +299,7 @@ To change this template use File | Settings | File Templates.
             align-items: center;
             justify-content: center;
             margin-left: 0;">
-                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩30,000</span></a>
+                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩40,000</span></a>
             </div>
         </div>
     </div>
@@ -312,13 +311,13 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -1rem;">
                 <img id="bella-img-8"
-                     src="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-default="./assets/images/블렌드/헤이즈 벨리 에스프레소 원두.png"
-                     data-hover="./assets/images/블렌드/헤이즈 벨리 에스프레소.jpg"
+                     src="./Link_img/컵과 텀블러/더블월 글라스 (390ml)1.png"
+                     data-default="./Link_img/컵과 텀블러/더블월 글라스 (390ml)1.png"
+                     data-hover="./Link_img/컵과 텀블러/더블월 글라스 (390ml)2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     alt="휴먼 메이드 퓨처 블렌드"><br>
+                     alt="더블월 글라스 (390ml)"><br>
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">휴먼 메이드 퓨처 블렌드</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">더블월 글라스 (390ml)</h5></div>
                 </div>
             </div>
             <div class="caption-status"
@@ -331,7 +330,7 @@ To change this template use File | Settings | File Templates.
             align-items: center;
             justify-content: center;
             margin-left: -0.5rem;">
-                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩30,000</span></a>
+                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩39,000</span></a>
             </div>
         </div>
     </div>
@@ -343,13 +342,13 @@ To change this template use File | Settings | File Templates.
              style="width: 30rem; height: 40rem; border-color: #f7f4eb transparent;">
             <div class="image-wrapper" style="position: relative; height: 100%; margin-left: -2rem;">
                 <img id="bella-img-9"
-                     src="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-default="./assets/images/블렌드/자이언트 스텝스 원두.png"
-                     data-hover="./assets/images/블렌드/자이언트 스텝스.jpg"
+                     src="./Link_img/컵과 텀블러/더블월 써모 글라스 세트 (각 350ml)1.png"
+                     data-default="./Link_img/컵과 텀블러/더블월 써모 글라스 세트 (각 350ml)1.png"
+                     data-hover="./Link_img/컵과 텀블러/더블월 써모 글라스 세트 (각 350ml)2.jpg"
                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; background-color: #f9f9f4;"
-                     alt="시그니처 블렌드 세트">
+                     alt="더블월 써모 글라스 세트 (각 350ml)">
                 <div class="image-caption" style= "bottom: 80px;">
-                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">시그니처 블렌드 세트</h5></div>
+                    <div class="caption-bottom" style="margin-bottom: 8px;"><h5 class="coffee-name">더블월 써모 글라스 세트 (각 350ml)</h5></div>
                 </div>
             </div>
             <div class="caption-status"
@@ -362,7 +361,7 @@ To change this template use File | Settings | File Templates.
             align-items: center;
             justify-content: center;
             margin-left: -1rem;">
-                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩35,000</span></a>
+                <a href="" class="add-to-cart"><span style="font-size: 1rem;">카트에 추가 | ₩45,000</span></a>
             </div>
         </div>
     </div>
